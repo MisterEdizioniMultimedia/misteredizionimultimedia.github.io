@@ -19,6 +19,8 @@
   elementi della definizione (pp. 30-31), posizionamento (1.6, pp. 49-51), epilogo (p. 89) e prefazione di Marco Magheri,
   riscontrati sul PDF di stampa autofagia-informativa-rev8_0-kdp-5x8-22ott26.pdf (Drive, md5 2d8d2c1798ea7ecd09126632fd8bcf49);
   quarta di copertina; dati bibliografici dalla pagina Amazon.it B0HPS4X58M letta il 30/10/2026.
+  Aggiornamento 30/10/2026: testi allineati alla scheda del termine v1.0 depositata su Zenodo, DOI 10.5281/zenodo.23807438
+  (file autofagia-informativa-scheda-termine-v1-0.pdf, md5 a6b6b20841610ee165e2bfebd70413a5), licenza CC BY 4.0.
   Caratteri e stile identici alla pagina principale.
 -->
 <script type="application/ld+json">
@@ -60,9 +62,14 @@
      "@id": "https://www.misteredizioni.it/autofagia-informativa/#libro"
     }
    },
-   "subjectOf": {
-    "@id": "https://www.misteredizioni.it/autofagia-informativa/#libro"
-   }
+   "subjectOf": [
+    {
+     "@id": "https://www.misteredizioni.it/autofagia-informativa/#libro"
+    },
+    {
+     "@id": "https://doi.org/10.5281/zenodo.23807438"
+    }
+   ]
   },
   {
    "@type": "DefinedTerm",
@@ -85,7 +92,7 @@
     "@id": "https://www.misteredizioni.it/autofagia-informativa/#autore",
     "name": "Martin E. Iglesias",
     "alternateName": "Martin Enrico Iglesias",
-    "description": "Giornalista professionista e comunicatore pubblico",
+    "description": "Giornalista professionista e comunicatore pubblico, studioso delle dinamiche comunicative",
     "sameAs": [
      "https://www.linkedin.com/in/iglesiasmartinenrico"
     ]
@@ -114,6 +121,39 @@
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "url": "https://www.amazon.it/dp/B0HPS4X58M"
+   }
+  },
+  {
+   "@type": "CreativeWork",
+   "@id": "https://doi.org/10.5281/zenodo.23807438",
+   "name": "Autofagia Informativa: definizione e origine del termine",
+   "description": "Scheda del termine, versione 1.0",
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23807438"
+   },
+   "url": "https://doi.org/10.5281/zenodo.23807438",
+   "sameAs": [
+    "https://zenodo.org/records/23807438"
+   ],
+   "author": {
+    "@id": "https://www.misteredizioni.it/autofagia-informativa/#autore"
+   },
+   "datePublished": "2026-10-30",
+   "version": "1.0",
+   "inLanguage": "it",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/"
+   },
+   "about": {
+    "@id": "https://www.misteredizioni.it/autofagia-informativa/#termine"
+   },
+   "isBasedOn": {
+    "@id": "https://www.misteredizioni.it/autofagia-informativa/#libro"
    }
   }
  ]
@@ -305,7 +345,7 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
         </div>
 
         <div class="work__body prose">
-          <p class="lead">«Autofagia Informativa» è il termine che Martin E. Iglesias, giornalista professionista e comunicatore pubblico, propone nel saggio «Autofagia Informativa. Le intelligenze artificiali generative e la deriva del senso nella Comunicazione Pubblica», pubblicato il 27 ottobre 2026 con il marchio MisterEdizioni Multimedia e la prefazione di Marco Magheri, Segretario Generale dell’Associazione Italiana della Comunicazione Pubblica e Istituzionale. Il termine nomina il processo con cui i contenuti prodotti dalle intelligenze artificiali generative tornano nei circuiti dell’informazione e vi diventano fonti. L’Introduzione registra anche la forma compatta «Info-Autofagia» e adotta la prima (p. 12).</p>
+          <p class="lead">«Autofagia Informativa» è il termine proposto da Martin E. Iglesias, giornalista professionista e comunicatore pubblico, studioso delle dinamiche comunicative, nel saggio «Autofagia Informativa. Le intelligenze artificiali generative e la deriva del senso nella Comunicazione Pubblica», pubblicato il 27 ottobre 2026 con il marchio MisterEdizioni Multimedia e con la prefazione di Marco Magheri, Segretario Generale dell’Associazione Italiana della Comunicazione Pubblica e Istituzionale. Il termine nomina il processo con cui i contenuti prodotti dalle intelligenze artificiali generative tornano nei circuiti dell’informazione e vi diventano fonti. L’Introduzione del volume registra anche la forma compatta «Info-Autofagia» e adotta la prima (p. 12).</p>
 
           <h2 id="definizione">Definizione</h2>
           <blockquote class="def">
@@ -321,8 +361,9 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
           <h2 id="elementi">I quattro elementi della definizione</h2>
           <p>Il libro scompone la definizione in quattro elementi. Il primo è il ciclo ricorsivo di alimentazione: l’ecosistema si nutre, direttamente o indirettamente, delle proprie produzioni, quando i modelli vengono addestrati e quando i loro output vengono raccolti, recuperati e ripresi come fonti. Il secondo è la progressività: il processo si accumula passaggio dopo passaggio, e per questo la degradazione è difficile da cogliere in tempo reale, come le differenze tra una fotocopia e l’originale precedente. Il terzo è la dissoluzione del referente empirico, la perdita di aggancio alla realtà verificabile, che procede indipendentemente dalle intenzioni dei soggetti coinvolti. Il quarto è l’attribuzione per certa: il momento in cui l’informazione trasformata rientra in circolazione come fonte affidabile e introduce nel sistema una falsa certezza epistemica, che i meccanismi ordinari di verifica non sono attrezzati a intercettare.</p>
 
-          <h2 id="concetti-vicini">Model collapse, Model Autophagy Disorder, epistemia</h2>
-          <p>Il concetto più vicino è il model collapse descritto da Shumailov e colleghi su Nature nel 2024, il degrado di un modello addestrato in modo ricorsivo su dati sintetici. Il model collapse è un fenomeno endogeno ai modelli, misurabile sul piano statistico e computazionale; l’Autofagia Informativa descrive ciò che accade all’ecosistema informativo nel suo complesso quando i prodotti di quei modelli entrano in circolazione e vengono trattati come fonti. Il Model Autophagy Disorder di Alemohammad e colleghi, presentato a ICLR 2024, condivide con il termine la radice biologica della metafora e resta sul piano ingegneristico: il momento in cui l’output degradato esce dal laboratorio e agisce come fonte rimane fuori dal suo campo. Con l’epistemia individuata da Loru e colleghi su PNAS nel 2025 il rapporto è di complementarità. L’epistemia descrive uno stato, l’illusione di conoscenza nel momento in cui un output viene prodotto e ricevuto; l’Autofagia Informativa è il processo che accumula e amplifica quella condizione nel tempo.</p>
+          <h2 id="concetti-vicini">Rapporto con i concetti affini</h2>
+          <p>Il concetto più vicino è il model collapse descritto da Shumailov e colleghi (2024), il degrado di un modello addestrato in modo ricorsivo su dati sintetici. Il model collapse è un fenomeno endogeno ai modelli, misurabile sul piano statistico e computazionale; l’Autofagia Informativa descrive ciò che accade all’ecosistema informativo nel suo complesso quando i prodotti di quei modelli entrano in circolazione e vengono trattati come fonti. Il Model Autophagy Disorder di Alemohammad e colleghi (2024) condivide con il termine la radice biologica della metafora e resta sul piano ingegneristico: il momento in cui l’output degradato esce dal laboratorio e agisce come fonte rimane fuori dal suo campo.</p>
+          <p>Con l’epistemia individuata da Loru e colleghi (2025) il rapporto è di complementarità. L’epistemia descrive uno stato, l’illusione di conoscenza nel momento in cui un output viene prodotto e ricevuto; l’Autofagia Informativa è il processo che accumula e amplifica quella condizione nel tempo.</p>
 
           <h2 id="infosfera">Infosfera di galleggiamento</h2>
           <p>Il libro propone anche una seconda espressione, per l’ambiente in cui il processo si svolge:</p>
@@ -331,8 +372,8 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
             <footer>Glossario, voce «Infosfera di galleggiamento», pp. 99-100</footer>
           </blockquote>
 
-          <h2 id="comunicazione-pubblica">Perché riguarda la Comunicazione Pubblica</h2>
-          <p>La Pubblica Amministrazione parla per delega del corpo sociale, e la fiducia dei cittadini nella sua parola è una risorsa democratica, lenta da costruire e rapida da disperdere. Tra Legge 150/2000, AI Act e Legge 132/2025, il volume segue il processo dentro le amministrazioni italiane e indica la necessità di un presidio epistemologico umano, interno alle istituzioni che producono informazione pubblica. L’epilogo si apre così: «Nominare un processo è il primo atto di resistenza epistemica nei confronti di un fenomeno che si propaga senza lasciare tracce visibili: il termine Autofagia Informativa nasce per questo».</p>
+          <h2 id="comunicazione-pubblica">L’ambito: la Comunicazione Pubblica</h2>
+          <p>La Pubblica Amministrazione parla per delega del corpo sociale, e la fiducia dei cittadini nella sua parola è una risorsa democratica, lenta da costruire e rapida da disperdere. Tra Legge 150/2000, AI Act e Legge 132/2025, il volume segue il processo dentro le amministrazioni italiane e indica la necessità di un presidio epistemologico umano, interno alle istituzioni che producono informazione pubblica. L’Epilogo si apre così: «Nominare un processo è il primo atto di resistenza epistemica nei confronti di un fenomeno che si propaga senza lasciare tracce visibili: il termine Autofagia Informativa nasce per questo».</p>
 
           <blockquote>
             <p>«Iglesias propone di chiamare “Autofagia Informativa” il processo attraverso il quale contenuti generati artificialmente rientrano nei circuiti di produzione dell’informazione, fino a essere trattati come fonti certe. La sua riflessione collega il funzionamento dei sistemi alla responsabilità di chi comunica.»</p>
@@ -355,9 +396,21 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
             <a class="buy buy--line" href="/#editoria">Scheda del libro</a>
           </div>
 
+          <h2 id="riferimenti">Riferimenti</h2>
+          <p class="cite">Alemohammad, S., Casco-Rodriguez, J., Luzi, L., Humayun, A. I., Babaei, H., LeJeune, D., Siahkoohi, A., &amp; Baraniuk, R. (2024). <i>Self-Consuming Generative Models Go MAD</i>. International Conference on Learning Representations (ICLR 2024). <a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/ebc042e767de551803ccfcc45e2454f5-Abstract-Conference.html" rel="noopener" target="_blank">proceedings.iclr.cc</a></p>
+          <p class="cite">Loru, E., Nudo, J., Di Marco, N., Santirocchi, A., Atzeni, R., Cinelli, M., Cestari, V., Rossi-Arnaud, C., &amp; Quattrociocchi, W. (2025). The simulation of judgment in LLMs. <i>Proceedings of the National Academy of Sciences</i>, 122(42), e2518443122. <a href="https://doi.org/10.1073/pnas.2518443122" rel="noopener" target="_blank">https://doi.org/10.1073/pnas.2518443122</a></p>
+          <p class="cite">Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., &amp; Gal, Y. (2024). AI models collapse when trained on recursively generated data. <i>Nature</i>, 631, 755-759. <a href="https://doi.org/10.1038/s41586-024-07566-y" rel="noopener" target="_blank">https://doi.org/10.1038/s41586-024-07566-y</a></p>
+
           <h2 id="come-citare">Come citare</h2>
+          <p>Il libro:</p>
           <p class="cite">Iglesias, M. E. (2026). <i>Autofagia Informativa. Le intelligenze artificiali generative e la deriva del senso nella Comunicazione Pubblica</i>. Prefazione di M. Magheri. Milano: MisterEdizioni Multimedia. ISBN 979-8165748103.</p>
-          <p>La definizione si trova a p. 30, nel paragrafo 1.2; la voce di glossario alle pp. 97-98.</p>
+          <p>La definizione si trova a p. 30, nel paragrafo 1.2; la voce di glossario alle <span style="white-space:nowrap">pp. 97-98</span>.</p>
+          <p id="zenodo">La scheda del termine, depositata su Zenodo:</p>
+          <p class="cite">Iglesias, M. E. (2026). <i>Autofagia Informativa: definizione e origine del termine</i>. Scheda del termine, versione 1.0. Zenodo. <a href="https://doi.org/10.5281/zenodo.23807438" rel="noopener" target="_blank">https://doi.org/10.5281/zenodo.23807438</a></p>
+          <p>La scheda è distribuita con licenza Creative Commons Attribuzione 4.0 Internazionale (<a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a>); la licenza copre soltanto la scheda.</p>
+          <div class="links">
+            <a class="buy buy--line" href="https://doi.org/10.5281/zenodo.23807438" rel="noopener" target="_blank">Scheda su Zenodo</a>
+          </div>
         </div>
       </div>
     </div>
