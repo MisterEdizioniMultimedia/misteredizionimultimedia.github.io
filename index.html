@@ -29,6 +29,9 @@
   Logo animato in apertura: Animation5s_MisterEdNeg.mp4 (stessa cartella), ritagliato e senza audio;
   se la riproduzione automatica non parte o il visitatore riduce le animazioni, resta il logo fermo.
 
+  30/10/2026: link Amazon corretto sulla pagina definitiva (B0HPS4X58M), collegamento alla pagina del termine
+  /autofagia-informativa/, aggiunti robots.txt e sitemap.xml.
+
   Per aggiungere un'opera: duplica un blocco <article class="work"> ... </article> dentro la sezione
   Editoria o Multimedia e sostituisci i testi.
 -->
@@ -114,6 +117,8 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
 .buy:hover{background:#185f9c}
 .links{display:flex;flex-wrap:wrap;gap:12px 16px;margin-top:.6em}
 .links .buy{margin-top:0}
+.buy--line{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+.buy--line:hover{background:rgba(29,112,183,.08)}
 
 .credits{display:grid;grid-template-columns:max-content 1fr;gap:4px 24px;margin:2em 0 0;font-size:.95em}
 .credits dt{font-family:var(--cond);font-weight:300;color:var(--mist)}
@@ -211,8 +216,12 @@ blockquote footer{font-family:var(--cond);font-weight:300;font-size:16px;line-he
             <p>«Leggo queste pagine come un invito a fare della qualità della comunicazione e dell’informazione nella sfera pubblica una responsabilità condivisa fra ricerca e professioni, tra consapevolezza istituzionale e partecipazione democratica».</p>
             <footer>Marco Magheri, Segretario Generale dell’Associazione Italiana della Comunicazione Pubblica e Istituzionale, dalla prefazione</footer>
           </blockquote>
-          <!-- [NON VERIFICATO] link tratto dal comunicato del 27/10/2026; la pagina prodotto Amazon non è stata riscontrata online -->
-          <a class="buy" href="https://www.amazon.it/dp/B0HPFY2RG8" rel="noopener" target="_blank">Acquista su Amazon</a>
+          <!-- Link riscontrato sulla pagina prodotto Amazon.it il 30/10/2026 (ASIN B0HPS4X58M, ISBN-13 979-8165748103);
+               il precedente B0HPFY2RG8 apriva la pagina della bozza -->
+          <div class="links">
+            <a class="buy" href="https://www.amazon.it/dp/B0HPS4X58M" rel="noopener" target="_blank">Acquista su Amazon</a>
+            <a class="buy buy--line" href="/autofagia-informativa/">Definizione del termine</a>
+          </div>
         </div>
       </article>
 
